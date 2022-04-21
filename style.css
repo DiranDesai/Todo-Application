@@ -1,0 +1,44 @@
+.container{
+    max-width: 500px !important;
+    margin: 2rem auto !important;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    min-height: 500px;
+}
+
+form .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form .form-group input{
+    flex: 60% !important;
+}
+form .form-group button{
+    flex: 20% !important;
+    margin-left: 20px;
+}
+
+.todo-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-list li div:first-child{
+    display: flex;
+    align-items: center;
+}
+.todo-list li div:first-child p{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.trash-btn{
+    cursor: pointer;
+}
+
+.alert.hide{
+    display: none;
+}
+.line-through{
+    text-decoration: line-through;
+}
